@@ -1,3 +1,4 @@
+#test/practice
 print("oui ou non?")
 choix = input().lower()
 
