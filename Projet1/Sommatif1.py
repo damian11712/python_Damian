@@ -31,5 +31,5 @@ if choix == "manchester utd":
   print("non! manchester utd a seulement gagnée le fameux trophées 3 fois")
 if choix == "liverpool":
   print("non! liverpool a 3 de plus de trophées que manchester utd mais pas le plus!")
-else:
+else: #reponse n'ai pas valide
   print("ce n'était pas une valid choix")
