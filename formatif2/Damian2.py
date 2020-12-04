@@ -1,4 +1,3 @@
-
 print("hallo tous le monde")
 user_input = input()
 print(8 * int(user_input) ) # confirmation
