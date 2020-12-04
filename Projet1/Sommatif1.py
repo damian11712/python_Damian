@@ -14,7 +14,7 @@ elif choix == "cristiano ronaldo":
   print("Non, mais tes proches! cristiano ronaldo à 750 buts. Il peut briser le record de pele.")
 elif choix == "lionel messi":
   print("lionel messi est juste en arriére de cristiano ronaldo avec 711, comme cristiano, tous les deux peuves passer pele.")
-else:
+else: #reponse n'ai pas valide
   print("ce n'était pas une choix valid")
   
 #question2
@@ -22,7 +22,7 @@ print("Quelle equipe de soccer a le plus de trophée de champions league?")
 
 print("real madrid, ac milan, manchester utd ou liverpool")
 choix = input().lower()
-
+#des choix pour des reponse
 if choix == "real madrid":
   print("correct! real madrid sont encore en haut avec 13 trophées")
 if choix == "ac milan":
