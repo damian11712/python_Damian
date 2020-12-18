@@ -18,3 +18,19 @@ elif choix == ma_liste[2] :
 elif choix == ma_liste[3]:
   print("Non! Ressayez-vous!")
 
+print("combien de temps a tu de devoirs par semaine?")
+liste = [2, 4, 6]
+for i in range (2,4,6):
+    print (liste)
+    choix2 = int(input())
+    if choix2 == 2:
+        print("Sa ces normale!")
+
+    if choix2 == 4:
+        print("Suffisament de travaille!")
+      
+    if choix2 == 6:
+        print("Give yourself a break please!")
+
+
+print("Merci de participer a mon questionnaire!")
