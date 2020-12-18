@@ -15,6 +15,6 @@ elif choix == ma_liste[1]:
   print("Non! Ressayez-vous!")
 elif choix == ma_liste[2] : 
   print("Non! Ressayez-vous!")
-elif choix == ma_liste :
+elif choix == ma_liste[3]:
   print("Non! Ressayez-vous!")
 
