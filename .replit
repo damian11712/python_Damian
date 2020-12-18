@@ -1,2 +1,2 @@
 language = "python3"
-run = "python formatif3/Travail1.py"
+run = "python Listes/Listes1.py"
