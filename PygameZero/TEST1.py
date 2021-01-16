@@ -3,19 +3,17 @@ import pgzrun
 WIDTH = 600
 HEIGHT = 280
 
+guitar = Actor("guitar.jpeg")
+guitar.pos = (WIDTH/2, HEIGHT/2)
+speed = 1
+
+
 def draw():
     screen.fill("white")
     guitar.draw()
 
-guitar = Actor("guitar.jpeg")
-guitar.pos = (0, HEIGHT / 2)
-speed = 0.5
-v_g = 0.5
-
-
-def update():
-    """Changer des choses entre chaque mise à jour de la fenêtre"""
-    guitar.x = guitar.x + speed
-    guitar.x = guitar.x + v_g
+def on_mouse_move(rel):
+    guitar.x += rel[0]
+    guitar.y += rel[1]
 
 pgzrun.go()
