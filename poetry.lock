@@ -1,5 +1,13 @@
 [[package]]
 category = "main"
+description = "Free Games"
+name = "freegames"
+optional = false
+python-versions = "*"
+version = "2.3.2"
+
+[[package]]
+category = "main"
 description = "NumPy is the fundamental package for array computing with Python."
 name = "numpy"
 optional = false
@@ -27,10 +35,14 @@ python-versions = "*"
 version = "1.9.6"
 
 [metadata]
-content-hash = "35b6b0cd19f95bcb469b0e6643e5de6bfe215d1cdcfff3b74ab51dde992997d6"
+content-hash = "a6e156162e0200fcd066be9a518150c4e0a22b6bce3365decf09c810f4c9227a"
 python-versions = "^3.8"
 
 [metadata.files]
+freegames = [
+    {file = "freegames-2.3.2-py2.py3-none-any.whl", hash = "sha256:1ebe3681e858613ec6c6cb57b6825de99a8bd909856f6c00c76bf8c6eb1ecc10"},
+    {file = "freegames-2.3.2.tar.gz", hash = "sha256:351da8f57f9244a83afe1f3bdd3cb9199c5f46e70f655928f242a75c8c52f00e"},
+]
 numpy = [
     {file = "numpy-1.19.5-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:cc6bd4fd593cb261332568485e20a0712883cf631f6f5e8e86a52caa8b2b50ff"},
     {file = "numpy-1.19.5-cp36-cp36m-manylinux1_i686.whl", hash = "sha256:aeb9ed923be74e659984e321f609b9ba54a48354bfd168d21a2b072ed1e833ea"},

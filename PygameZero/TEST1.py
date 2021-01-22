@@ -1,7 +1,7 @@
 import pgzrun
 
 WIDTH = 600
-HEIGHT = 280
+HEIGHT = 580
 
 guitar = Actor("guitar.jpeg")
 guitar.pos = (WIDTH/2, HEIGHT/2)
